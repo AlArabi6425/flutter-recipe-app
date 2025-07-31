@@ -1,0 +1,42 @@
+name: kitchen_masala_recipe
+description: A new Flutter project.
+
+publish_to: 'none' # Prevent accidental publishing.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.3.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/splash_image.png
+    - assets/app_icon.png
+
+flutter_native_splash:
+  color: "#FFFFFF"           # Background color of the splash screen
+  image: assets/splash_image.png # Path to your splash image (must match above)
+  android: true
+  ios: true
+  web: false
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/app_icon.png"
