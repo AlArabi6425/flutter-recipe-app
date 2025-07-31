@@ -6,7 +6,7 @@ Kitchen Masala Recipe is a cross-platform mobile app built using Flutter. It sho
 
 ## ✨ Features
 
-- 🍛 100+ recipes per cuisine (Main course + Desserts)
+- 🍛 400+ recipes per cuisine (Main course + Desserts)
 - 🔍 In-app search with instant filtering
 - ⭐ Mark favorite recipes for quick access
 - 📝 Save personal notes for any recipe
